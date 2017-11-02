@@ -8,4 +8,4 @@ More information about BNF Converter (BNFC) can be found at [GitHub Page](https:
 
 ## 2. Installation of BNFC
 
-
+Step-by-step instructions of [installation](https://github.com/quqixun/PLTNotes/blob/master/doc/Installation/README.md).
