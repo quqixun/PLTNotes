@@ -42,7 +42,16 @@ Add CLASSPATH to .bashrc, restart terminal.
 export CLASSPATH=.:/usr/share/java/JLex.jar:/usr/share/java/cup.jar
 ```
 
-## 4. Test
+## 4. Support C++ Backend
+
+Install [Flex](https://github.com/westes/flex) and [Bison](http://www.gnu.org/software/bison/).
+
+```
+sudo apt-get install flex
+sudo apt-get install bison
+```
+
+## 5. Test
 
 ```
 bnfc --help
