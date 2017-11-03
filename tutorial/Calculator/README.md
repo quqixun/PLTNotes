@@ -23,13 +23,13 @@ cd java
 make
 ```
 
-Test in Java
+Test
 
 ```
 echo "1 + 2 * 3" | java Calc.Test
 ```
 
-## Compile by Haskell
+## Compiled by Haskell
 
 ```
 cd ~/Calculator
@@ -38,7 +38,37 @@ cd haskell
 make
 ```
 
-Test in Haskell
+Test
+
+```
+echo "1 + 2 * 3" | ./TestCalc
+```
+
+## Compiled by C
+
+```
+cd ~/Calculator
+bnfc -m -o ./c -c Calc.cf
+cd c
+make
+```
+
+Test
+
+```
+echo "1 + 2 * 3" | ./TestCalc
+```
+
+## Compiled by C++
+
+```
+cd ~/Calculator
+bnfc -m -o ./cpp -cpp Calc.cf
+cd cpp
+make
+```
+
+Test
 
 ```
 echo "1 + 2 * 3" | ./TestCalc
